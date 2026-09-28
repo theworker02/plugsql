@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/plugsql",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plug encode/decode helpers for sql payloads in pipelines.",
+  "bin": {
+    "plugsql": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/plugsql.git"
+  },
+  "homepage": "https://theworker02.github.io/plugsql/",
+  "keywords": [
+    "plug",
+    "sql",
+    "encode",
+    "cli",
+    "toolkit"
+  ]
+}
